@@ -38,7 +38,7 @@ Configure ethical settings and internet access in the Settings tab.
 Directory Structure
 text
 
-Copy
+
 gaia/
 ├── src/                # Source code
 ├── assets/             # Static assets (logo, icons)
