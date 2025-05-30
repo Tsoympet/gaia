@@ -1,1 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "gaia"
+version = "2.4.0"
+description = "Generalized Artificial Intelligence Agent for autonomous learning and task execution"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+license = { file = "LICENSE" }
+readme = "docs/README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=1.10",
+    "pyswip>=0.2",
+    "pandas>=1.5",
+    "ttkbootstrap>=1.10",
+    "matplotlib>=3.5",
+    "fake-useragent>=1.5",
+    "speechrecognition>=3.8",
+    "pyttsx3>=2.90",
+    "cryptography>=38.0",
+    "opencv-python>=4.5",
+    "pyautogui>=0.9",
+    "websocket-client>=1.5",
+    "requests>=2.28",
+    "transformers>=4.30",
+    "pillow>=9.0"
+]
+
+[project.scripts]
+gaia = "gaia.core.gaia:main"
