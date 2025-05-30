@@ -1,1 +1,16 @@
-
+torch>=1.10
+pyswip>=0.2
+pandas>=1.5
+ttkbootstrap>=1.10
+matplotlib>=3.5
+fake-useragent>=1.5
+speechrecognition>=3.8
+pyttsx3>=2.90
+cryptography>=38.0
+opencv-python>=4.5
+pyautogui>=0.9
+websocket-client>=1.5
+requests>=2.28
+transformers>=4.30
+pillow>=9.0
+pytest>=7.0
